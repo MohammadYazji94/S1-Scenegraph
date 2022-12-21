@@ -42,8 +42,8 @@ function(exports, scenegraph, animation) {
 		hand.translate([540, 0, 0]);
 
 		var book = scenegraph.createNodeWithModel("Book", "cube", {scale:50}, hand);
-		book.scale([0, -0.9, 0]);
-		book.translate([130, 0, 0]);
+		book.scale([0.5, -0.9, 0.3]);
+		book.translate([150, 0, 0]);
 
 		// BEGIN exercise myModel
 		/**var cubeNode = scenegraph.createNodeWithModel("myModel", "myModel", {scale:300});
